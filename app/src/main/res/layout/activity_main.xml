@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/qr"
+        android:id="@+id/QR_view"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:hint="Enter Your Text for Making QR"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:padding="25dp"
+        android:id="@+id/QR_text"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="25dp"
+        android:text="create QR"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/QR_creat"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="25dp"
+        android:text="scen QR"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/QR_scan"
+        />
+
+
+
+
+</LinearLayout>
